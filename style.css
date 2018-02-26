@@ -1,0 +1,14 @@
+#container {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 75px;
+    right: 30%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    border: 1px solid black;
+}
+
+#container > div {
+    border: 1px solid black;
+}
